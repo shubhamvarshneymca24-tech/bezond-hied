@@ -1,0 +1,167 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+
+header img#logo {
+    width: 150px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Slideshow */
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.slideshow img:first-child {
+    display: block;
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#about h2 {
+    margin-top: 0;
+}
+
+/* Boxes Section */
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.box {
+    width: 40%;
+    margin: 10px 0;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box h3 {
+    margin: 0;
+}
+
+.box-services {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.box-products {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.box-innovation {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.box-hiring {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.box-getintouch {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-content div {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.footer-content div h4 {
+    margin-top: 0;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin: 5px 0;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
